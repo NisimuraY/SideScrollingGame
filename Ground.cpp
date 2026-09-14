@@ -114,9 +114,9 @@ void Ground::Draw()
 		}
 	}
 
-	std::string FCText;
-	FCText = "NOKORI:" + std::to_string(FoodCount_);
-	pText_->Draw(20, 50, FCText.c_str());
+	//std::string FCText;
+	//FCText = "NOKORI:" + std::to_string(FoodCount_);
+	//pText_->Draw(20, 50, FCText.c_str());
 }
 
 void Ground::Release()
